@@ -45,4 +45,41 @@ const coverStyle = {
 
 const titleStyle = {
   fontSize: '2.5rem',
-  margin: '0.5rem 0
+  margin: '0.5rem 0',
+};
+
+const taglineStyle = {
+  fontStyle: 'italic',
+  color: '#666',
+  marginBottom: '2rem',
+};
+
+const sectionStyle = {
+  maxWidth: '700px',
+  margin: '0 auto 2rem',
+  fontSize: '1.1rem',
+  lineHeight: '1.6',
+};
+
+const buttonRow = {
+  marginTop: '2rem',
+};
+
+const buttonStyle = {
+  display: 'inline-block',
+  margin: '1rem',
+  padding: '0.75rem 1.5rem',
+  backgroundColor: '#a87d3a',
+  color: 'white',
+  textDecoration: 'none',
+  borderRadius: '6px',
+  fontWeight: 'bold',
+};
+
+const footerStyle = {
+  marginTop: '3rem',
+  fontSize: '0.9rem',
+  color: '#999',
+};
+
+export default App;
