@@ -16,7 +16,7 @@ function App() {
       </section>
 
       <div style={buttonRow}>
-        <a href="https://www.buzzsprout.com" target="_blank" rel="noreferrer" style={buttonStyle}>🎧 Listen on Buzzsprout</a>
+        <a  href="https://linktr.ee/middleofitpod" target="_blank" rel="noreferrer" style={buttonStyle}>🎧 Listen & Connect</a>
         <a href="mailto:hello@inthemiddleofitpodcast.com" style={buttonStyle}>📬 Contact</a>
       </div>
 
