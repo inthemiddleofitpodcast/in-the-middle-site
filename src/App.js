@@ -1,5 +1,5 @@
 import './App.css';
-import cover from './ITMOI Cover Image.png'; // Make sure to import your cover image here
+import cover from './cover.png'; // Make sure to import your cover image here
 
 function App() {
   return (
