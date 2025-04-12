@@ -15,6 +15,15 @@ function App() {
         <p>If you’ve ever thought, “I’m not extreme, but I don’t feel seen,” this space is for you.</p>
       </section>
 
+      {/* Embedded Buzzsprout Trailer Player */}
+      <div style={{ maxWidth: '700px', margin: '0 auto' }}>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `<iframe title="Podcast Trailer" style="border:none;width:100%;height:200px;" src="https://www.buzzsprout.com/2469544/episodes/16967296-trailer-in-the-middle-of-it.js?container_id=buzzsprout-player-16967296&player=small" frameborder="0" scrolling="no"></iframe>`
+          }}
+        />
+      </div>
+          
       <div style={buttonRow}>
         <a  href="https://linktr.ee/middleofitpod" target="_blank" rel="noreferrer" style={buttonStyle}>🎧 Listen & Connect</a>
         <a href="mailto:hello@inthemiddleofitpodcast.com" style={buttonStyle}>📬 Contact</a>
