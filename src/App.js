@@ -19,7 +19,7 @@ function App() {
       <div style={{ maxWidth: '700px', margin: '0 auto' }}>
         <div
           dangerouslySetInnerHTML={{
-            __html: `<iframe title="Podcast Trailer" style="border:none;width:100%;height:200px;" src="https://www.buzzsprout.com/2469544/episodes/16967296-trailer-in-the-middle-of-it.js?container_id=buzzsprout-player-16967296&player=small" frameborder="0" scrolling="no"></iframe>`
+            __html: `<iframe src="https://www.buzzsprout.com/2469544/episodes/16967296-trailer-in-the-middle-of-it?client_source=small_player&iframe=true" loading="lazy" width="100%" height="200" frameborder="0" scrolling="no" title='In the Middle of It, Trailer – In the Middle of It'></iframe>`
           }}
         />
       </div>
